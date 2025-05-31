@@ -142,6 +142,7 @@ header nav ul li {
   color: #dcdcdc;
 }
 
+#equipe h2,
 .text-content h2,
 #modulos h2 {
   font-size: 2.5rem;
@@ -173,4 +174,68 @@ header nav ul li {
 
 #modulos img {
   width: 95vw;
+}
+
+.photo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2vh;
+  font-weight: bold;
+}
+
+.photo img {
+  width: 10vw;
+  height: 10vw;
+  border-radius: 50%;
+}
+
+#photos {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 8vw;
+}
+
+#equipe {
+  width: 100vw;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10vh;
+  color: #dcdcdc;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  background-color: #644bbf;
+  color: #dcdcdc;
+  padding: 7.5vh 0;
+}
+
+footer p {
+  font-size: 1.2rem;
+  text-align: center;
+  width: 80vw;
+  text-align: center;
+}
+
+footer h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2vh;
+}
+
+footer div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5vw;
 }
