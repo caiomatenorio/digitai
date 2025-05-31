@@ -121,3 +121,56 @@ header nav ul li {
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
+
+#quem-somos,
+#sobre {
+  width: 100vw;
+  height: 75vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10vw;
+}
+
+.text-content {
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.5vh;
+  color: #dcdcdc;
+}
+
+.text-content h2,
+#modulos h2 {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.text-content p {
+  font-size: 0.9rem;
+  width: 80%;
+  text-align: center;
+}
+
+#modulos {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #dcdcdc;
+  gap: 5vh;
+}
+
+#sobre img,
+#quem-somos img {
+  height: 50vh;
+  width: 50vh;
+  border-radius: 25%;
+}
+
+#modulos img {
+  width: 95vw;
+}
